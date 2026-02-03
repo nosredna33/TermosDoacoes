@@ -9,6 +9,24 @@ IA é bom mas não faz nada sozinho, mas co um gênio por traz, em 3 horas está
 # Autor
 * Anderson Luís Oliveira e Silva + Manus IA + Cartão de crédito - R$ 250,00 
 
+# Imagens:
+
+| Descricao | Imagem | 
+| --- | --- |
+| Tela 1 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela1.png" width=50% height=auto/></div> |
+| Tela 2 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela2.png" width=50% height=auto/></div> |
+| Tela 3 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela3.png" width=50% height=auto/></div> |
+| Tela 4 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela4.png" width=50% height=auto/></div> |
+| Tela 5 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela5.png" width=50% height=auto/></div> |
+| Tela 6 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela6.png" width=50% height=auto/></div> |
+| Tela 7 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela7.png" width=50% height=auto/></div> |
+| Tela 8 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela8.png" width=50% height=auto/></div> |
+| Tela 9 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela9.png" width=50% height=auto/></div> |
+| Tela 10 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela10.png" width=50% height=auto/></div> |
+| Tela 11 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela11.png" width=50% height=auto/></div> |
+| Tela 13 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela12.png" width=50% height=auto/></div> |
+| Tela 14 | <div align="center"><img src="https://github.com/nosredna33/TermoDoacao/blob/main/Tela13.png" width=50% height=auto/></div> |
+
 ## 🚀 Funcionalidades
 
 ### ✅ Área Pública
@@ -350,5 +368,5 @@ Para dúvidas ou problemas, consulte a documentação do Spring Boot:
 
 **Versão:** 1.0.0  
 **Data:** Fevereiro 2026  
-**Licença:** Uso interno governamental
+**Licença:** Uso livre!, Quer dizer Livre, só para o **Ministério da Saúde**... Para os demaissó mediante Heinekens!
 
