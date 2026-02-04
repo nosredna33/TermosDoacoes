@@ -158,9 +158,26 @@ java -jar target/termos-entrega-municipios-1.0.0.jar
 ## 🔑 Credenciais de Acesso
 
 ### Usuário Administrador
-- **E-mail:** admin@saude.gov.br
-- **Senha:** 123456
-- **Perfil:** ADMIN (acesso total)
+
+#### Hack para criar a primeira senha
+
+Hash BCrypt Correto (Compatível com jBCrypt Java)
+
+> **Usuário Raiz Direto no banco**:  admin@saude.gov.br / Admin@123456
+> **Hash**: $2a$10$oe84r4ylgFNKfQSA2L1j1.sZEaQSltLSxz0Sr0uE0nJz7VoU.DZQK
+> **Explicação do Problema**:
+> * Python bcrypt gera hash com prefixo $2b$
+> * jBCrypt Java só aceita hash com prefixo $2a$
+> * Gerar com outro framework pode causar erro: Invalid salt revision
+> *  Solução:
+> >   Use este comando SQL para atualizar manualmente o seu banco local:
+> ```SQL>
+> UPDATE usuario  
+> SET senha = '$2a$10$oe84r4ylgFNKfQSA2L1j1.sZEaQSltLSxz0Sr0uE0nJz7VoU.DZQK' 
+> WHERE email = 'admin@saude.gov.br';
+> ```
+> `ATENÇÃO!` - Alterar ou remover este usuário depois da instalação!
+
 
 ## 📊 Dados de Demonstração
 
@@ -371,5 +388,5 @@ Para dúvidas ou problemas, consulte a documentação do Spring Boot:
 
 **Versão:** 1.0.0  
 **Data:** Fevereiro 2026  
-**Licença:** Uso livre!, Quer dizer Livre, só para o **Ministério da Saúde**... Para os demaissó mediante Heinekens!
+**Licença:** Uso livre!, Quer dizer Livre, só para o **Ministério da Saúde**... Para os demaissó mediante `Heinekens`!
 
